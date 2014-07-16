@@ -6,6 +6,7 @@
 
  .breadback {
   background: url('../img/bread.jpg') no-repeat center;
+  height: 400px;
 }
 
 .breadback h1 {
@@ -18,7 +19,27 @@
   text-shadow: 1px 1px 1px #000;
 }
 
+@media (max-width: 400px){
+   
+  .jumbotron {
+    max-height: 100px;
+  }
+  .breadback {
+  background: url('../img/bread.jpg') no-repeat center;
+  max-height: 160px;
+  }
+ .breadback h1 {
+  margin-top: -20px;
+  font-size: 2em;
+ }
+ .breadback p {
+  font-size: 1em;
+ }
 
+ a.btn  {
+  max-height: 40px;
+ }
+}
 
 
 
